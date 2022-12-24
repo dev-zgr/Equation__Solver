@@ -1,7 +1,14 @@
 def solver(info_list):
+
+
+
+    """This functions solves and returns the solution of equation"""
     a = info_list[1][0]
     b = info_list[1][1]
     c = info_list[1][2]
+
+
+
     if info_list[0] < 0:
         return[0]
     elif info_list[0] == 0:
